@@ -1,0 +1,21 @@
+//fixme RESET CSS
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+html {
+	font-family: 'Ubuntu', sans-serif;
+
+	body {
+		font-size: 1.6rem;
+	}
+}
+
+input:focus {
+	box-shadow: 0 0 0 0;
+	outline: 0;
+}

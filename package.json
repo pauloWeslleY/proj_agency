@@ -1,0 +1,10 @@
+{
+  "name": "proj_agency",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "pauloWeslleY <weslleyspfc@13outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0"
+  }
+}
