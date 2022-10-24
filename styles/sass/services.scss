@@ -1,0 +1,73 @@
+//! Services
+.services__container {
+   max-width: 1200px;
+   padding: 3rem 10%;
+   padding-bottom: 0;
+
+   .hero__services {
+      width: 100%;
+      position: relative;
+      clear: both;
+      height: 15rem;
+      margin-bottom: 3rem;
+
+      &:last {
+         margin-bottom: 0;
+      }
+
+      #management__title {
+         color: var(--blue-40);
+      }
+      #development__title {
+         color: var(--blue-30);
+      }
+      #design__title {
+         color: var(--blue-10);
+      }
+      #hero__management {
+         background-color: var(--blue-40);
+      }
+      #hero__development {
+         background-color: var(--blue-30);
+      }
+      #hero__design {
+         background-color: var(--blue-10);
+      }
+
+      .hero__services_title {
+         width: 20%;
+         height: 15rem;
+         background-color: var(--gray-10);
+         float: left;
+         text-align: center;
+         line-height: 15rem;
+         padding: 2rem;
+         box-sizing: border-box;
+
+         p {
+            padding-top: 3.5rem;
+            color: var(--white-10);
+            font-size: 1.8rem;
+            line-height: 2.4rem;
+         }
+      }
+
+      .hero__services_description {
+         width: 80%;
+         float: left;
+         padding: 3rem;
+         box-sizing: border-box;
+
+         h3 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+         }
+
+         p {
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+         }
+      }
+   }
+}
